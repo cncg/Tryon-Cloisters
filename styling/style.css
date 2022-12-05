@@ -22,7 +22,8 @@ a:hover,a:active {
 
 body {
     cursor: url(../images/custom-cursor.png), auto;
-    background: rgb(1,10,77);
+    background: rgb(23,52,101);
+    background: radial-gradient(circle, rgba(23,52,101,1) 35%, rgba(0,30,56,1) 100%); 
     color: whitesmoke;
 }
 
@@ -37,6 +38,9 @@ header {
     color: white;
     background: rgb(1,12,30);
     background: radial-gradient(circle, rgba(1,12,30,0.9598433123249299) 24%, rgba(0,30,56,1) 100%);
+
+    /* background: rgb(23,52,101);
+    background: radial-gradient(circle, rgba(23,52,101,1) 35%, rgba(0,30,56,1) 100%); */
 }
 
 .logo {
@@ -54,7 +58,13 @@ header {
     margin: 0.5rem;
 }
 /* all above code is for the navbar as well as general page layout */
+
+
 abbr {
     cursor: help;
     text-decoration:none;
+}
+
+.item-3 , .item-4 {
+    width: 600px;
 }
