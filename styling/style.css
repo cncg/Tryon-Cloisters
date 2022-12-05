@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@649&display=swap');
 html {
     font-family: 'Montserrat', sans-serif;
+    font-size: large;
 }
 
 * {
@@ -9,18 +11,36 @@ html {
     padding: 0;
 }
 
+a:link, a:visited {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover,a:active {
+    cursor: url(../images/hover-cursor.png), auto;
+}
+
+body {
+    cursor: url(../images/custom-cursor.png), auto;
+    background: rgb(1,10,77);
+    color: whitesmoke;
+}
+
 header {
                 display:flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
     width: 100%;
-    border: solid blue;
-    padding: 6px;
+    /* border: solid white; */
+    padding: 16px;
+    color: white;
+    background: rgb(1,12,30);
+    background: radial-gradient(circle, rgba(1,12,30,0.9598433123249299) 24%, rgba(0,30,56,1) 100%);
 }
 
 .logo {
-    color: black;
+    color: whitesmoke;
     margin-right: auto;
     cursor: pointer;
 }
@@ -33,22 +53,8 @@ header {
     display: inline-block;
     margin: 0.5rem;
 }
-
-.section-1 > * {
-    display: flex;
-    flex-direction: column;
-    
-}
-
-.greeter {
-    align-items: center;
-    font-size: xx-large;
-    font-weight: bolder;
-    margin-top: 2rem;
-    margin-bottom: 10px ;
-}
-
-.info {
-    margin-left: 3rem ;
-    margin-right: 3rem;
+/* all above code is for the navbar as well as general page layout */
+abbr {
+    cursor: help;
+    text-decoration:none;
 }
