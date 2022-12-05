@@ -10,17 +10,19 @@ html {
 }
 
 header {
-    display:flex;
+                display:flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
     width: 100%;
-    border: solid black;
+    border: solid blue;
     padding: 6px;
 }
 
-.fa-landmark, .fa-solid {
+.logo {
+    color: black;
     margin-right: auto;
+    cursor: pointer;
 }
 
 .nav-links {
@@ -30,4 +32,23 @@ header {
 .nav-links li {
     display: inline-block;
     margin: 0.5rem;
+}
+
+.section-1 > * {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.greeter {
+    align-items: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-top: 2rem;
+    margin-bottom: 10px ;
+}
+
+.info {
+    margin-left: 3rem ;
+    margin-right: 3rem;
 }
