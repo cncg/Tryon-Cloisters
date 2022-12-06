@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@649&display=swap');
+
 html {
     font-family: 'Montserrat', sans-serif;
     font-size: large;
 }
 
 body {
-    /* cursor: url(../images/custom-cursor.png), auto; */
     background: rgb(23,52,101);
     background: radial-gradient(circle, rgba(23,52,101,1) 35%, rgba(0,30,56,1) 100%); 
     color: whitesmoke;
@@ -22,11 +22,6 @@ a:link, a:visited {
     color: whitesmoke;
     text-decoration: none;
 }
-/* 
-a:hover,a:active {
-    cursor: url(../images/hover-cursor.png), auto;
-} */
-
 
 header {
                 display:flex;
@@ -41,10 +36,6 @@ header {
     color: white;
     background: rgb(1,12,30);
     background: radial-gradient(circle, rgba(1,12,30,0.9598433123249299) 24%, rgba(0,30,56,1) 100%);
-    /* border: solid white; */
-
-    /* background: rgb(23,52,101);
-    background: radial-gradient(circle, rgba(23,52,101,1) 35%, rgba(0,30,56,1) 100%); */
 }
 
 .logo {
@@ -84,8 +75,10 @@ header {
 }
 
 .item-0 {
-    margin-top: 3.5rem;
-    margin-bottom: 18px;
+    align-self:flex-start;
+    margin-top: 4rem;
+    margin-bottom: 15px;
+    margin-left: 149px;
 }
 
 .item-1 {
@@ -104,4 +97,9 @@ em {
     align-self:flex-end;
     margin-top: -22px;
     margin-right: 30px;
+}
+
+html body div p .about {
+    text-decoration: underline;
+    display: inline;
 }
