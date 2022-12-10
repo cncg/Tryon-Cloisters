@@ -51,6 +51,7 @@ header {
 .nav-links li {
     display: inline-block;
     margin: 0.5rem;
+    flex-wrap: wrap;
 }
 /* all above code is for the navbar as well as general page layout */
 
@@ -78,7 +79,7 @@ header {
     align-self:flex-start;
     margin-top: 4rem;
     margin-bottom: 15px;
-    margin-left: 149px;
+    margin-left: 139px;
 }
 
 .item-1 {
@@ -100,6 +101,6 @@ em {
 }
 
 html body div p .about {
-    color: rgb(251, 255, 0);
+    color: rgb(0, 191, 255);
     display: contents;
 }
