@@ -6,7 +6,6 @@ html {
 }
 
 body {
-    /* cursor: url(../images/custom-cursor.png), auto; */
     background: rgb(23,52,101);
     background: radial-gradient(circle, rgba(23,52,101,1) 35%, rgba(0,30,56,1) 100%); 
     color: whitesmoke;
@@ -23,11 +22,6 @@ a:link, a:visited {
     text-decoration: none;
 }
 
-/* a:hover,a:active {
-    cursor: url(../images/hover-cursor.png), auto;
-} */
-
-
 header {
                 display:flex;
     flex-direction: row;
@@ -41,10 +35,6 @@ header {
     color: white;
     background: rgb(1,12,30);
     background: radial-gradient(circle, rgba(1,12,30,0.9598433123249299) 24%, rgba(0,30,56,1) 100%);
-    /* border: solid white; */
-
-    /* background: rgb(23,52,101);
-    background: radial-gradient(circle, rgba(23,52,101,1) 35%, rgba(0,30,56,1) 100%); */
 }
 
 .logo {
@@ -61,3 +51,4 @@ header {
     display: inline-block;
     margin: 0.5rem;
 }
+/* all above links are for general layout and navbar */

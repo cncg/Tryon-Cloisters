@@ -75,7 +75,7 @@ header {
     max-width: 800px;
 
     margin: auto;
-    margin-bottom: 15px;
+    margin-bottom: 18px;
 }
 
 .report {
@@ -93,6 +93,7 @@ header {
     
     margin: auto;
     margin-top: 50px;
+    margin-bottom: -15px;
 }
 
 .item-3 {
