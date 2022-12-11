@@ -79,7 +79,7 @@ header {
     align-self:flex-start;
     margin-top: 4rem;
     margin-bottom: 15px;
-    margin-left: 139px;
+    margin-left: 145px;
 }
 
 .item-1 {
@@ -89,7 +89,7 @@ header {
 .item-2 , .item-3 {
     box-shadow: 8px 8px rgb(181, 181, 181);
     border-radius: 3px;
-    width: 800px;
+    width: 100%;
     margin: 2rem;
 }
 
