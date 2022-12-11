@@ -86,11 +86,12 @@ header {
     font-size: 25px;
 }
 
-.item-2 , .item-3 {
+.item-2, .item-3 {
     box-shadow: 8px 8px rgb(181, 181, 181);
     border-radius: 3px;
     width: 100%;
-    margin: 2rem;
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 
 em {

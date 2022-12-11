@@ -6,7 +6,6 @@ html {
 }
 
 body {
-    /* cursor: url(../images/custom-cursor.png), auto; */
     background: rgb(23,52,101);
     background: radial-gradient(circle, rgba(23,52,101,1) 35%, rgba(0,30,56,1) 100%); 
     color: whitesmoke;
@@ -23,11 +22,6 @@ a:link, a:visited {
     text-decoration: none;
 }
 
-/* a:hover,a:active {
-    cursor: url(../images/hover-cursor.png), auto;
-} */
-
-
 header {
                 display:flex;
     flex-direction: row;
@@ -41,10 +35,6 @@ header {
     color: white;
     background: rgb(1,12,30);
     background: radial-gradient(circle, rgba(1,12,30,0.9598433123249299) 24%, rgba(0,30,56,1) 100%);
-    /* border: solid white; */
-
-    /* background: rgb(23,52,101);
-    background: radial-gradient(circle, rgba(23,52,101,1) 35%, rgba(0,30,56,1) 100%); */
 }
 
 .logo {
@@ -60,4 +50,43 @@ header {
 .nav-links li {
     display: inline-block;
     margin: 0.5rem;
+}
+/* all above css is for general page layout and navbar */
+
+.section-1 > * {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.section, .section-1 > * {
+    font-size: 24px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;    
+    justify-content: center;
+
+
+    width: 100%;
+    max-width: 800px;
+
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.report {
+    box-shadow: 8px 8px rgb(181, 181, 181);
+    border-radius: 3px;
+    width: 100%;
+}
+
+.item-0 {
+    border: solid red;
+    align-items: flex-start;
+    align-self: flex-start;
+    flex: 1 1 0;
 }
