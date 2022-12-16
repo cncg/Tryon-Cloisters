@@ -55,3 +55,72 @@ header {
 }
 
 /* all above code is for the general page layout and nav bar */
+
+.section-1 > * {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.section, .section-1 > * {
+    font-size: 24px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;    
+    justify-content: center;
+
+
+    width: 100%;
+    max-width: 800px;
+
+    margin: auto;
+    margin-bottom: 15px;
+}
+/* basic page layout above */
+
+
+.gallery-1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* border: solid 2px lightgreen; */
+}
+
+ .gitem {
+    height: 40vh;
+    flex-grow: 1;
+    list-style: none;
+}
+  
+img {
+    max-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+
+img:hover {
+    border: solid white 1.5px;
+}
+
+/* image gallery css */
+
+
+
+.item-0 {    
+    font-size: xx-large;
+    width: 100%;
+    max-width: 800px;
+
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 15px ;
+}
+
+.item-1 {
+    font-size: 24px;
+}
