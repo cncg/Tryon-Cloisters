@@ -58,13 +58,10 @@ html body div .blue {
     display: contents;
 }
 
-.item-0, .item-4 {
-    font-size: 45px;
-}
 .wrapper {
-    /* border: solid lightgreen 4px; */
-    margin: 15px;
-    max-height: 900px;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    /* border: solid lightgoldenrodyellow 4px; */
 }
 
 .row {
@@ -84,6 +81,57 @@ html body div .blue {
 }
 
 .fort, .cloisters {
+    /* border: solid tomato 3px; */
 }
 
-/* above code is the two column layout displayed */
+.cloisters {
+    /* width: min-content; */
+}
+
+.item-1 {
+    /* border:solid red; */
+    margin-bottom: 2rem;
+    font-size: 50px;
+    border-left: solid 2px;
+    padding: 20px;
+}
+
+.item-2 {
+    margin-bottom: 3px;
+}
+
+.item-3 {
+    margin-top: 25px;
+    margin-bottom: 3px;
+}
+/* above code is the two column layout displayed, left side */
+
+.item-4 {
+    margin-bottom: 2rem;
+    font-size: 50px;
+    border-left: solid 2px;
+    padding: 20px;
+}
+
+.item-5 {
+    margin-bottom: 3px;
+}
+
+.item-6 {
+    margin-top: 25px;
+    margin-bottom: 3px;
+}
+
+.item-7 {
+    margin-top: 25px;
+    margin-bottom: 3px;
+}
+
+/* right side of column */
+
+.map-1 {
+    margin-top: 60px;
+}
+.map-2 {
+    margin-top: 2rem;
+}
