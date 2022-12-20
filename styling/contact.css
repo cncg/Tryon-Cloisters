@@ -61,3 +61,8 @@ header {
     display: inline-block;
     margin: 0.5rem;
 }
+
+html body div .link {
+    color: rgb(0, 191, 255);
+    display: contents;
+}
