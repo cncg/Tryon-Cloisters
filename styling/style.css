@@ -43,7 +43,7 @@ header {
     margin-right: auto;
     cursor: pointer;
 }
-
+/* TODO: add box-shadow to bottom of navbar */
 .nav-links {
     list-style: none;
 }
